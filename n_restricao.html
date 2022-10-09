@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="n_restricao.css" media="screen">
+    <link rel="shortcut icon" href="favicon.ico.ico" type="imagem/x-icon">
+    <title>MUDAR RESTRIÇÃO</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <a class="header-item1" href="index.html">Início</a>
+            <a class="header-item2" href="cardapio.html">Cardápio</a>
+            <a class="header-item3" href="contato.html">Contato</a>
+            <a class="header-item4" href="index.html">Sair</a>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <img id="painel" src="painel_restricao.svg">
+        </div>
+            <div>
+        <form>
+            <div class="defs">
+                <label></label>
+                <input type="checkbox" name="restri" value="veg"/> Vegetariano<br />
+                <input type="checkbox" name="restri" value="hipertensao"/> Hipertenso<br />
+                <input type="checkbox" name="restri" value="diabetes"/> Diabético<br />
+                <input type="checkbox" name="restri" value="lactose"/> Lactose<br />
+                <input type="checkbox" name="restri" value="outros"/> Outro <br />
+            </div>
+            <div class="just">
+                <textarea name="nome" cols="40" rows="5">Justificativa</textarea>
+            </div>
+            <button class="botao" type="submit">ENVIAR</button>
+            </div>
+        </form>
+    </main>
+</body>
+<footer>
+    <img id="minilogo" src="minicon.png">
+</footer>
+</html>

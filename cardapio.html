@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cardapio.css" media="screen">
+    <link rel="shortcut icon" href="favicon.ico.ico" type="imagem/x-icon">
+    <title>CARDÁPIO</title>
+
+    <style>
+        table, th, td{
+            border: 5px solid #c61818;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <a class="header-item1" href="index.html">Início</a>
+            <a class="header-item2" href="contato.html">Contato</a>
+            <a class="header-item3" href="sobre.html">Sobre Nós</a>
+        </nav>
+    </header>
+
+    <main>
+    <section>
+        <img class="backcardapio" src="backcardapio.svg">
+    </section>    
+    <form>
+        <div class="data">
+            <label></label>
+            <input type="date" id="dia" name="dia">
+        </div>
+    </form>
+    <form action="" method="">
+        <table class="tabela">
+            <tr>
+                <th>CARBOIDRATO</th>
+                <th>PROTEÍNA</th>
+                <th>SALADA</th>
+                <th>SUCO</th>
+                <th>SOBREMESA</th>
+            </tr>
+            <tr>
+                <th>-----</th>
+                <th>-----</th>        
+                <th>-----</th>
+                <th>-----</th>
+                <th>-----</th>
+            </tr>
+            <tr>
+                <th>-----</th>
+                <th>-----</th>        
+                <th>-----</th>
+                <th>-----</th>
+                <th>-----</th>
+            </tr>
+            <tr>
+                <th>-----</th>
+                <th>-----</th>        
+                <th>-----</th>
+                <th>-----</th>
+                <th>-----</th>
+            </tr>
+            <tr>
+                <th>-----</th>
+                <th>-----</th>        
+                <th>-----</th>
+                <th>-----</th>
+                <th>-----</th>
+            </tr>
+        </table>
+    </form>
+    <select id=restricao>
+        <option value="" selected="selected">Nenhuma</option>
+        <option value="veg" >Vegetariano</option>
+        <option value="hipertensao">Hipertenso</option>
+        <option value="diabetes">Diabético</option>
+        <option value="lactose">Lactose</option>
+        <option value="gluten">Glúten</option>
+        <option value="outros">Outros</option>
+    </select>
+    </main>
+</body>
+<footer>
+    <img id="minilogo" src="minicon.png">
+</footer>
+</html>

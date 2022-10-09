@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+font-size: 100%;
+background: #FFFFFF;
+background-size: center
+}
+
+.header{
+position: absolute;
+width: 1130px;
+height: 100px;
+left: 100px;
+top: 0px;    
+background: #C61818;
+border-radius: 10px;
+} 
+
+.header-item1{
+    position: absolute;
+    width: 178px;
+    height: 26px;
+    left: 150px;
+    top: 37px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.header-item2{
+    position: absolute;
+width: 159px;
+height: 26px;
+left: 450px;
+top: 37px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.header-item3{
+position: absolute;
+width: 191px;
+height: 26px;
+left: 750px;
+top: 37px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#somos{
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    left: 300px;
+    top: 150px;
+}
+
+#minilogo{
+    position: absolute;
+    width: 80px;
+    left: 600px;
+    top: 610px;
+
+    align-content: center;
+    
+}
